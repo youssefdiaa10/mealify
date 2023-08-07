@@ -1,4 +1,5 @@
-function myFunction() {
-    var element = document.html;
-    element.classList.toggle("dark-mode");
-  }
+var mode = document.getElementById("myMode");
+
+mode.addEventListener("click", function() {
+       document.getElementsByTagName("html").style.
+})
